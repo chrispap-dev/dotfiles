@@ -1,2 +1,3 @@
 # dotfiles
-Collection of my config files for Linux. i3,alacritty,i3-blocks,vim(Neovim) and more
+This is a collection of my configs/dotfiles i use on Linux.
+So far these include but are not limited to : i3-gaps,i3-blocks,alacritty,neovim,picom,bashrc 
