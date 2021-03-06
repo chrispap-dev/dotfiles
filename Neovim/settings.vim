@@ -1,13 +1,12 @@
 syntax enable
 set tabstop=4
 set hidden
-set nowrap
 set mouse=a
 set expandtab
 set smartindent
 set autoindent
 set number
-set background=dark
+"set background=dark
 set nobackup
 set nowritebackup
 set clipboard=unnamedplus
@@ -17,8 +16,7 @@ set incsearch
 set hlsearch
 set encoding=utf-8
 set fileencoding=utf-8
-
-
+set signcolumn=no
 
 au! BufWritePost $MYVIMRC source %
 

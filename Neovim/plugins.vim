@@ -19,6 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'neoclide/coc.nvim',{'branch':'release'}
     Plug 'nvim-treesitter/nvim-treesitter', {'do':':TSUpdate'}
     Plug 'vim-airline/vim-airline'
+    Plug 'dracula/vim', { 'as': 'dracula' }
 
 
 
@@ -27,5 +28,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
 
     call plug#end()
-
+    colorscheme dracula
 
