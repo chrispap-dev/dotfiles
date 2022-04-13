@@ -41,11 +41,10 @@ set showmatch
 set splitbelow
 set splitright
 
-set cursorline
 set wrapscan
 set report=0
 
 
 set t_Co=256
 set background=light
-colorscheme nord
+colorscheme PaperColor
